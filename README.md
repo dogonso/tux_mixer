@@ -12,7 +12,7 @@ Control PulseAudio mixer with real potentiometers on Linux.
 ## Software
 
 - Python [pulsectl](https://github.com/mk-fg/python-pulse-control) and [pyFirmata](https://github.com/tino/pyFirmata) are used for this project. 
-- pip package management can be used to install them: `pip install pyFirmata` and `pip install pulsectl`
+- Required packages can be installed by `pip install requirements.txt`
 
 - Upload firmata protocol to Arduino. `Arduino IDE > File > Examples > Firmata > StandartFirmata`
 
