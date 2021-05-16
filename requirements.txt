@@ -1,2 +1,0 @@
-pyFirmata==1.1.0
-pulsectl>=20.1.2
