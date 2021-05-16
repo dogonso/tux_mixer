@@ -1,0 +1,4 @@
+include tux_mixer/*.txt
+include tux_mixer/*.png
+include README.md
+include LICENSE.txt
