@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/73137174/118411474-6ffe7580-b69d-11eb-9297-b39b77e71446.png" width="250" height="250">
+
 # tux_mixer
 Control PulseAudio mixer with real potentiometers on Linux.
 
@@ -14,3 +16,4 @@ Control PulseAudio mixer with real potentiometers on Linux.
 3. Define number of potentiometers from taskbar `Change Pot Number` (Default is 4)
 4. Set `Change Delay`. It prevents high CPU usage. Optimal number is between 0.05 and 0.15.\
 (Default is 0.1)
+
