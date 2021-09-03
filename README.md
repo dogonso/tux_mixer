@@ -4,10 +4,10 @@
 Control PulseAudio mixer with real potentiometers on Linux.
 
 ## Installation & Usage
-1.  If pip is not installed try `sudo apt install pip3`. 
-2. tux_mixer package is available on PyPI. Type `pip3 install tux_mixer` or 
-`pip install tux_mixer`.
-3. To start program type `tux_mixer` to terminal. 
+1.  If pip is not installed try `sudo apt install pip`. 
+2.  Install Tkinter from terminal. `sudo apt install python3-tk`
+3. tux_mixer package is available on PyPI. Type `pip install tux_mixer`.
+4. To start program type `tux_mixer` to terminal. 
 
 ## Hardware
 1. Upload StandartFirmata (Examples>Firmata) to your Arduino.
