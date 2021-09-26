@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/dogonso/tux_mixer/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<img src="https://user-images.githubusercontent.com/73137174/118411474-6ffe7580-b69d-11eb-9297-b39b77e71446.png" width="250" height="250">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Installation & Usage
+1.  If pip is not installed try `sudo apt install pip`. 
+2.  Install Tkinter from terminal. `sudo apt install python3-tk`
+3. tux_mixer package is available on PyPI. Type `pip install tux_mixer`.
+4. To start program type `tux_mixer` to terminal. 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dogonso/tux_mixer/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Hardware
+1. Upload StandartFirmata (Examples>Firmata) to your Arduino.
+2. Connect potentiometers starting from A0. A0 controls master volume.\
+(There is no limit for number of potentiometers)
+3. Define number of potentiometers from taskbar `Change Pot Number` (Default is 4)
+4. Set `Change Delay`. It prevents high CPU usage. Optimal number is between 0.05 and 0.15.\
+(Default is 0.1)
